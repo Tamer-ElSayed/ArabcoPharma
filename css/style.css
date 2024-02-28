@@ -1044,9 +1044,14 @@ h4 {
   width: 95%;
 }
 
+.table_container {
+  overflow-x: auto; /* or overflow-x: scroll; */
+  width: 90%; /* Set a maximum width for the container */
+}
+
 table {
   border-collapse: collapse;
-  width: 90%;
+  width: 100%;
   margin-bottom: 45px;
 }
 
