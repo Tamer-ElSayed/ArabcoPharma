@@ -33,14 +33,22 @@
 
   .about_section .img-box img {
     height: 100%;
-    width: auto;
     min-width: 100%;
+  }
+
+  #about_img {
+    margin-top: auto;
+    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 767px) {
   .header_section .header_top .social_box {
     display: none;
+  }
+
+  #about_container {
+    margin-left: 0;
   }
 
   .header_section .header_top .contact_nav a span {
@@ -54,10 +62,22 @@
   .slider_section .detail-box .btn-box {
     justify-content: center;
   }
+  /*#about_img {
+    display: none;
+  }*/
 
-  .about_section .img-box {
-    margin-top: 45px;
+  .two-columns {
+    grid-template-columns: repeat(1 ,1fr);
   }
+
+  .appear-small {
+    display: block;
+  }
+
+  .appear-big {
+    display: none;
+  }
+
 
   .contact_section .form_container {
     padding-left: 10px;
