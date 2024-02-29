@@ -695,6 +695,10 @@ h5 {
   margin-bottom: auto;
 }
 
+#aboutPage-img {
+  padding: 0 15px;
+}
+
 .appear-small {
   display: none;
 }
