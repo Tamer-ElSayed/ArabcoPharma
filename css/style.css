@@ -143,9 +143,10 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 20px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: left;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -156,6 +157,7 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 20px 0 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
