@@ -62,9 +62,11 @@
   .slider_section .detail-box .btn-box {
     justify-content: center;
   }
-  /*#about_img {
-    display: none;
-  }*/
+
+  .about_section .img-box img {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
   .two-columns {
     grid-template-columns: repeat(1 ,1fr);
