@@ -81,3 +81,18 @@ function myMap() {
 $(document).ready(function () {
     $('select').niceSelect();
 });
+
+
+//click for more
+document.addEventListener('DOMContentLoaded', function() {
+    const elementToToggle = document.getElementById('address');
+    const toggleButton = document.getElementById('location-container');
+
+    toggleButton.addEventListener('click', function() {
+    if (elementToToggle.style.display === 'none') {
+        elementToToggle.style.display = 'block'; // Display the element
+    } else {
+        elementToToggle.style.display = 'none'; // Hide the element
+    }
+    });
+});
